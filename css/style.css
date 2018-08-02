@@ -467,13 +467,15 @@ span.border.one:after {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   width: 100px;
-    height: 100px;
+	height: 100px;
     text-align: center;
 	    border-radius: 50%;
 }
 .hvr-rectangle-in:hover{
+	transition: all 1s;
 	width: 125px;
-    height: 125px;
+	height: 125px;
+	margin:-10px 0 0 -10px
 }
 .wthree_about_right_grid_right a:hover{
 	color:#00a78e; 
@@ -702,8 +704,9 @@ ul.year li:nth-child(5){
 .zuo-2:hover,.zuo-3:hover,.zuo-4:hover,.zuo-5:hover,.zuo-6:hover,.zuo-7:hover,.zuo-8:hover,.zuo-9:hover,.zuo-10:hover,.zuo-11:hover{
 	width: 100px;
 	height: 100px;
+	margin:-10px 0 0 -10px
 }
-.zuo-2 a:hover,.zuo-3 a:hover,.zuo-4 a:hover,.zuo-5 a:hover,.zuo-6:hover,.zuo-7 a:hover,.zuo-8 a:hover,.zuo-9 a:hover,.zuo-10 a:hover,.zuo-11 a:hover{
+.zuo-2 a:hover,.zuo-3 a:hover,.zuo-4 a:hover,.zuo-5 a:hover,.zuo-6 a:hover,.zuo-7 a:hover,.zuo-8 a:hover,.zuo-9 a:hover,.zuo-10 a:hover,.zuo-11 a:hover{
 	margin-top: 25px;
 	font-size: 28px;
 }
@@ -718,6 +721,7 @@ ul.year li:nth-child(5){
 	height: 70px;
 	background-color: #00a78e;
 	border-radius: 50%;
+	transition:all 2s;
 }
 .zuo-2{
 	top: 2%;
