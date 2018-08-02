@@ -911,7 +911,6 @@ left: 55%;
     background:#00a78e;
 }
 .resp-tabs-container {
-
 	padding: 0px;
 	clear: left;	
 }
@@ -949,9 +948,9 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
    background: rgba(0, 0, 0, 0.55);
 }
 .team-gd img {
-  width: 100%;
+  width: 98%;
   height: 370px;
-	border-bottom: 9px solid rgba(0, 0, 0, 0.81);
+	border-bottom: 9px solid #F4F4F4;
 }
 /*-- portfolio --*/
 
