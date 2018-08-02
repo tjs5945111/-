@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.head{
+    height: 70px;
+    margin-top: 100px;
+    background: grey;
+}
+.hd{
+    width: 900px;
+    height: 70px;
+    background: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hdone{
+    width: 50px;
+    height: 50px;
+    background: #f36838;
+    float: left;   
+}
+.hdtwo{
+    width: 350px;
+    height: 50px;
+    float: left;
+}
+.hdtwo li{
+    list-style: none;
+    font-size: 6px;
+}
+
+.xm{
+    font-size: 28px!important;
+    margin-left: 15px;
+}
+.bdall{
+    width: 100%;
+    height: 580px;
+    background-image: url("img/banner.png");
+    background-position-x: -250px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+  .bd{
+    width: 400px;
+    height: 525px;
+    border:1px solid gray;
+    margin-left: 900px;
+    background: white;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+ }
+ form .login{
+     font-size: 24px;
+     text-align: center;
+     color: lightgray;
+     margin-top: 25px;
+     }
+     .user{
+         color:#f36838;
+     }
+ 
+     .scancd{
+         color:black;
+     }
+     .phone{
+         margin-top: 30px;
+         text-align: center;
+     }
+     .password{
+         margin-top: 15px;
+         text-align: center;
+     }
+     .phone input{
+         
+         height:50px;
+         width:350px;
+     }
+     .password input{
+         height:50px;
+         width:350px;
+     }
+     .submit{
+         text-align: center;
+         margin-top: 20px;
+     }
+     .submit input{
+         height:50px;
+         width: 354px;
+         background: #f36838;
+         border: 1px solid #f36838;
+         color: white;
+         font-size: 20px;
+     }
+     .submit input:hover{
+         cursor: pointer;
+     }
+     .register{
+         text-align: center;
+         margin-top: 20px;
+     }
+     .footer{
+         width: 350px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .register span{
+         color: gray;
+         font-size: 15px;
+     }
+     .footer .other{
+         text-align: center;
+         margin-top: 100px;
+         color: gray;
+         font-size: 16px;
+         position: relative;
+     }
+     .right,.left{
+         width: 125px;
+         height: 1px;
+         float: left;
+         display: block;
+         position: absolute;
+         top: 50%;
+         background: grey;
+     }
+     .right{
+         right: 0px;
+     }
+      .allicon{
+          margin-bottom: 30px;
+
+     }
+     .allicon a{
+         width:18px;
+         height: 18px;
+         display: block;
+         float: left;
+         background:#747474 url("img/icons_type.png") no-repeat;
+         margin-left: 50px;
+         margin-top: 10px;
+     }
+     .allicon .one{
+         background-position: -20px 0px;
+     }
+     .allicon .two{
+         background-position: -38px 0px;
+     }
+     .allicon .thr{
+         background-position: -57px 0px;
+     }
+     .allicon .four{
+         background-position: -85px 0px;
+     }

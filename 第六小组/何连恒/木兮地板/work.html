@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="work.css">
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="tp">
+            <img src="img/logo0.png" alt="">
+            <div class="tpone">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">关于公司</a></li>
+                <li><a href="#">产品展示</a></li>
+                <li><a href="#">招商加盟</a></li>
+                <li><a href="#">联系我们</a></li>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+            <div class="b-all">
+                <img src="img/aboutus_banner.jpg" alt="">
+                <img src="img/banner.jpg" alt="">
+                <img src="img/banner02.jpg" alt="">
+            </div>
+            <div class="btn">
+                <button class="current"></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="ctt-one">
+                <h1>企业精神</h1>
+                <div class="cttone-one">
+                    <div class="col-3 col-xs-3">
+                        <img src="img/pinpai.png" alt="">
+                        <h2>品质</h2>
+                        <p>品质是品牌的发展基石</p><p>坚持好品质,必定铸就优质品牌</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="img/keji.png" alt="">
+                        <h2>科技</h2>
+                        <p>科技是品牌的助推力</p>
+                        <p>只有不断科技创新,才能不会被淘汰</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="img/chengxin.png" alt="">
+                        <h2>诚信</h2>
+                        <p>诚信是品牌的防护盾</p>
+                        <p>诚信企业,放心品牌才能走的更长久</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="img/gongying.png" alt="">
+                        <h2>共赢</h2>
+                        <p>供应是品牌的生命力</p>
+                        <p>与客户共赢,与员工共赢与企业共赢</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ctt-two">
+                <p><a href="#">产品展示</a></p>
+                <div class="ctttwo-one">
+                    <div class="col-4">
+                        <img src="img/item01.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/item02.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/item03.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/item04.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/item05.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/item06.jpg" alt="">
+                    </div>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+                <div class="ft">
+                    <div class="col-1">
+                        <img src="img/logo.ico" alt="">
+                    </div>
+                    <div class="col-6">
+                        <li>
+                            <a href="#">关于公司</a>
+                            <a href="#">产品展示</a>
+                            <a href="#">招商加盟</a>
+                            <a href="#">联系我们</a>
+                        </li>
+                        <p>版权所有©木兮实业有限公司&nbsp;鄂ICP备18011650号</p>
+                    </div>
+                    <div class="col-2">
+                        <li>联系方式:027-83622296</li>
+                        <li>手机联系:13387576980</li>
+                        <li>邮箱地址:yt15yi@163.com</li>
+                    </div>
+                </div>
+            </div>
+        <script>
+                let btn = $(".btn button");   
+                for(let i=0;i<btn.length;i++){
+                   btn[i].index = i;
+                }   
+                $(".btn button").click(function(){
+                    $(this).addClass("current").siblings().removeClass("current");
+                    console.log(this.index);
+                    $(".b-all img").eq(this.index).fadeIn().siblings().fadeOut();
+           
+                })
+        </script>
+</body>
+</html>
