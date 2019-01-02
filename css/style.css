@@ -947,11 +947,19 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
    
    background: rgba(0, 0, 0, 0.55);
 }
-.team-gd img {
-  width: 98%;
-  height: 370px;
-	border-bottom: 9px solid #F4F4F4;
+.conter-grid{
+	display: grid ;
+	grid-template-rows: repeat(2,300px);
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	grid-gap: 5px;
 }
+
+.team-gd img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
 /*-- portfolio --*/
 
 #portfolio .portfolio-item {
@@ -1051,10 +1059,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-.team-gd {
-    padding: 0;
-	position:relative;
-}
+
 .bottom-top {
     margin: 0 auto;
     text-align: center;
@@ -1422,17 +1427,12 @@ span.border.two:after {
 		top: 0;
 		bottom: 0;
 		position: absolute;
-		content: " ";
 		width: 1px;
 		background-color: #ccc;
 		left: 20px;
 		margin-right: -1.5px;
 	}
-	.team-gd {
-		padding: 0;
-		width: 33%;
-		float: left;
-	}
+
 	.thumb:hover ul li {
 		margin: 113px 0px 0;
 	}
@@ -1527,11 +1527,7 @@ span.border.two:after {
 	.news-grid:nth-child(3) {
 		margin: 0;
 	}
-	.team-gd {
-		padding: 0;
-		width: 50%;
-		float: left;
-	}
+	
 	.wthree_about_right_grids {
 		margin-top:2em;
 	}
@@ -1857,11 +1853,6 @@ span.border.two:after {
 		background: none;
 		padding: 7px 10px;
 		margin-bottom: 6px;
-	}
-	.team-gd {
-		padding: 0;
-		width: 100%;
-		float: left;
 	}
 	.thumb .team_pos {
 		bottom: -83px;
